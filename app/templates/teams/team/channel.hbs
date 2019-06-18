@@ -6,14 +6,12 @@
     @description={{this.model.description}} />
 
   <!-- Channel Message List -->
-  <div class="py-4 flex-1 overflow-y-scroll channel-messages-list" role="list">
 
-    <ChannelMessage />
-    <ChannelMessage />
-    <ChannelMessage />
-    <ChannelMessage />
-
-  </div>
-
+  <ChannelContainer @channel={{this.model}}
+    as |messages|>
+    {{#each messages as |message|}}
+      <ChannelMessage @message={{message}}/>
+    {{/each}}
+  </ChannelContainer>
   <Channel::ChannelFooter />
 </main>
