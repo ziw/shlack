@@ -8,10 +8,12 @@
   <!-- Channel Message List -->
 
   <ChannelContainer @channel={{this.model}}
-    as |messages|>
-    {{#each messages as |message|}}
-      <ChannelMessage @message={{message}}/>
-    {{/each}}
+    as |messages actions|>
+    <div class="py-4 flex-1 overflow-y-scroll channel-messages-list" role="list">
+      {{#each messages as |message |}}
+        <ChannelMessage @message={{message}} />
+      {{/each}}
+    </div>
+    <Channel::ChannelFooter @create={{actions.createMessage}}/>
   </ChannelContainer>
-  <Channel::ChannelFooter />
 </main>

@@ -222,7 +222,9 @@
       "channelId": "general",
       "userId": 1,
       "body": "awqwdqwqwdq",
-      "enrichedBody": ["awqwdqwqwdq"],
+      "enrichedBody": [
+        "awqwdqwqwdq"
+      ],
       "createdAt": 1555872270175,
       "id": 14
     },
@@ -569,6 +571,46 @@
       "userId": "1",
       "createdAt": 1556683077121,
       "id": 57
+    },
+    {
+      "teamId": "li",
+      "channelId": "general",
+      "userId": 1,
+      "body": "Hi everyone!",
+      "createdAt": 1560903357289,
+      "id": 58
+    },
+    {
+      "createdAt": 1560904587971,
+      "id": 59
+    },
+    {
+      "createdAt": 1560904595649,
+      "id": 60
+    },
+    {
+      "createdAt": 1560904645324,
+      "id": 61
+    },
+    {
+      "createdAt": 1560904659786,
+      "id": 62
+    },
+    {
+      "createdAt": 1560904683557,
+      "id": 63
+    },
+    {
+      "createdAt": 1560904688260,
+      "id": 64
+    },
+    {
+      "createdAt": 1560904688641,
+      "id": 65
+    },
+    {
+      "createdAt": 1560904688810,
+      "id": 66
     }
   ]
 }
